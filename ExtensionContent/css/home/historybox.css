@@ -1,0 +1,347 @@
+/* ========== historybox ========== */
+#content #historybox{
+margin-top:30px;
+-webkit-box-shadow: 1px 1px 3px #cacaca;
+-moz-box-shadow: 1px 1px 3px #cacaca;
+box-shadow: 1px 1px 3px #cacaca;
+behavior:url(/css/home/PIE.htc);
+position:relative;
+clear:both;
+}
+
+#content #historybox .arrow_box{
+position:absolute;
+top:50%;
+width:160px;
+z-index:100;
+font-size:88%;
+display:none;
+}
+
+#content #historybox .arrow_box .addtolb{
+padding-bottom:10px;
+margin-bottom:10px;
+border-bottom:1px dotted #FFF;
+}
+
+#content #historybox .arrow_box select, #content #historybox .arrow_box input{
+width:160px;
+margin-bottom:10px;
+}
+
+#content #historybox .arrow_box a{
+display:inline;
+background:url(../../img/common/icon-arrow01.gif) no-repeat left center;
+padding: 5px 0 5px 25px;
+color:#FFF;
+}
+
+#content #historybox .arrow_box a:hover{
+color:#b5b5b5;
+text-decoration:none;
+}
+
+#content #historybox .arrow_box #createlb{
+display:none;
+}
+
+/* cartin_box */
+.cartin_box {
+	position: relative;
+	background: #505055;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	behavior:url(/css/home/PIE.htc);
+	padding:5px;
+	color:#FFF;
+}
+.cartin_box:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(80, 80, 85, 0);
+	border-top-color: #505055;
+	border-width: 8px;
+	margin-left: -8px;
+}
+
+#content #historybox .cartin_box{
+position:absolute;
+top:15px;
+width:13em;
+z-index:100;
+font-size:88%;
+opacity:0;
+display:none;
+}
+
+#content #historybox .cartin_box.error{
+width:16em;
+margin-left:-10px;
+}
+
+#content #historybox .cartin_box.error a{
+padding-left:15px;
+margin-left:5px;
+background:url(../../img/common/btn-arrow01.png) no-repeat -8px -2px;
+}
+
+#content #historybox .cartin_box.other{
+width:12em;
+margin-left:5px;
+text-align:center;
+}
+
+#content #historybox .cartin_box span{
+padding:7px 5px 7px 5px;
+}
+
+#content #historybox .cartin_box .cart_sucseed{
+padding:7px 5px 7px 37px;
+background:url(../../img/common/icon-fukidashi-cart.gif) no-repeat left center;
+}
+
+#content #historybox .cartin_box .cart_sucseed, #content #historybox .cartin_box.error .cart_error, #content #historybox .cartin_box.other .cart_other{
+display:block;
+}
+
+#content #historybox .cartin_box .cart_error, #content #historybox .cartin_box .cart_other, #content #historybox .cartin_box.error .cart_sucseed, #content #historybox .cartin_box.other .cart_sucseed{
+display:none;
+}
+
+#content #historybox .cartin_box a{
+color:#FFF;
+}
+
+#content #historybox .cartin_box a:hover{
+color:#b5b5b5;
+text-decoration:none;
+}
+
+#content #historybox h1{
+font-size:100%;
+padding:10px;
+margin:0;
+line-height:1;
+background:none;
+font-weight:bold;
+border:10px solid #FFF;
+}
+
+#content #historybox #historyslide{
+padding:10px 0 0 0;
+position:relative;
+background:#FFF;
+border-top:1px solid #dbdbdb;
+}
+
+#content #historybox #historyslide #historypickup{
+min-height:126px;
+overflow:hidden;
+/*zoom:1;*/
+position:relative;
+}
+
+#content #historybox #historyslide #historypickup ul{
+float:left;
+margin:0;
+}
+
+#content #historybox #historyslide #historypickup ul:after {
+content: "";
+clear: both;
+display: block;
+}
+
+#content #historybox #historyslide #historypickup li{
+padding-right:10px;
+width:119px;
+float:left;
+}
+
+#content #historybox #historyslide #historypickup li:after {
+content: "";
+clear: both;
+display: block;
+}
+
+#content #historybox #historyslide #historypickup li .hist-canvas{
+background:#F2F2F2;
+width:84px;
+height:84px;
+border:5px solid #F2F2F2;
+text-align:center;
+display:block;
+position:relative;
+float:left;
+overflow:hidden;
+}
+
+#content #historybox #historyslide #historypickup li .hist-canvas img.hist-thumb{
+position:absolute;
+left:50%;
+top:50%;
+}
+
+#content #historybox #historyslide #historypickup li .hist-canvas .hist-slideup{
+position:absolute;
+display:block;
+width:94px;
+height:60px;
+padding-top:34px;
+left:-5px;
+top:-5px;
+}
+
+#content #historybox #historyslide #historypickup li .hist-canvas .hist-creative{background:url(../../img/common/lb-thumb-hover-creative.png) no-repeat left top;}
+#content #historybox #historyslide #historypickup li .hist-canvas .hist-editorial{background:url(../../img/common/lb-thumb-hover-editorial.png) no-repeat left top;}
+#content #historybox #historyslide #historypickup li .hist-canvas .hist-motion{background:url(../../img/common/lb-thumb-hover-motion.png) no-repeat left top;}
+#content #historybox #historyslide #historypickup li .hist-canvas .hist-3dmodel{background:url(../../img/common/lb-thumb-hover-3dmodel.png) no-repeat left top;}
+#content #historybox #historyslide #historypickup li .hist-canvas .hist-sound{background:url(../../img/common/lb-thumb-hover-sound.png) no-repeat left top;}
+#content #historybox #historyslide #historypickup li .hist-canvas .hist-font{background:url(../../img/common/lb-thumb-hover-font.png) no-repeat left top;}
+
+#content #historybox #historyslide #historypickup li .hist-canvas a{
+color:#FFF;
+text-decoration:underline;
+font-size:9px;
+display:block;
+padding:30px 0 10px 0;
+}
+
+#content #historybox #historyslide #historypickup li .hist-canvas a:hover{
+color:#b5b5b5;
+text-decoration:none;
+}
+
+#content #historybox #historyslide #historypickup li .hist-canvas .hist-slideup .hist-close{
+position:absolute;
+left:68px;
+top:5px;
+padding:5px;
+cursor:pointer;
+}
+
+#content #historybox #historyslide #historypickup li .add-action{float:right; position:relative;}
+
+#content #historybox #historyslide #historypickup li .hist-cart,
+#content #historybox #historyslide #historypickup li .hist-cart-check,
+#content #historybox #historyslide #historypickup li .hist-cart-login
+{
+line-height:1;
+background-color:#f2f2f2;
+border-left:1px solid #FFF;
+padding:12px 0 12px 0;
+display:block;
+}
+#content #historybox #historyslide #historypickup li a.hist-cart:hover img{
+filter: alpha(opacity=60);
+-moz-opacity:0.60;
+opacity:0.60;
+}
+
+#content #historybox #historyslide #historypickup li .hist-lightbox,
+#content #historybox #historyslide #historypickup li .hist-lightbox-check,
+#content #historybox #historyslide #historypickup li .hist-lightbox-login
+{
+line-height:1;
+background-color:#f2f2f2;
+border-top:1px solid #FFF;
+border-left:1px solid #FFF;
+padding:8px 0 16px 0;
+display:block;
+}
+#content #historybox #historyslide #historypickup li a.hist-lightbox:hover img{
+filter: alpha(opacity=60);
+-moz-opacity:0.60;
+opacity:0.60;
+}
+
+#content #historybox #historyslide #historypickup li .hist-category{clear:both; display:block; line-height:1; font-size:60%; text-align:center; padding-top:5px;}
+
+#content #historybox #historyslide #historypickup li img{vertical-align:bottom;}
+
+#content #historybox #historyslide #hprev, #content #historybox #historyslide #hnext{
+width:20px;
+text-align:center;
+cursor:pointer;
+background:#FFF;
+height:136px;
+}
+
+#content #historybox #historyslide #hprev{
+float:left;
+-webkit-box-shadow: 1px 0px 3px #1d1d1d;
+-moz-box-shadow: 1px 0px 3px #1d1d1d;
+box-shadow: 1px 0px 3px #1d1d1d;
+display:block;
+outline:none;
+position:relative;
+behavior:url(/css/home/PIE.htc);
+margin:-10px 5px 0 0;
+}
+
+#content #historybox #historyslide #hnext{
+float:right;
+-webkit-box-shadow: -1px 0px 3px #1d1d1d;
+-moz-box-shadow: -1px 0px 3px #1d1d1d;
+box-shadow: -1px 0px 3px #1d1d1d;
+display:block;
+outline:none;
+position:relative;
+behavior:url(/css/home/PIE.htc);
+margin:-10px 0 0 5px;
+}
+
+#content #historybox #historyslide #hprev img, #content #historybox #historyslide #hnext img{
+vertical-align:bottom;
+margin-top:57px;
+}
+
+#content #historybox #historyslide #hprev.show:hover, #content #historybox #historyslide #hnext.show:hover{
+filter: alpha(opacity=60);
+-moz-opacity:0.60;
+opacity:0.60;
+}
+
+#content #historybox #historyslide #hprev.hide, #content #historybox #historyslide #hnext.hide{
+filter: alpha(opacity=40);
+-moz-opacity:0.40;
+opacity:0.40;
+cursor:default;
+}
+
+#content #historybox #historyslide .blank-history-area{
+height:126px;
+padding-left:10px;
+}
+
+/* arrow box */
+.arrow_box {
+	background: #505055;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	behavior:url(/css/home/PIE.htc);
+	padding:10px;
+	color:#FFF;
+}
+.arrow_box:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(80, 80, 85, 0);
+	border-right-color: #505055;
+	border-width: 8px;
+	margin-top: -8px;
+}

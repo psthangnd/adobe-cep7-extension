@@ -1,0 +1,309 @@
+@charset "Shift_JIS";
+
+body,
+p{
+margin:0;
+padding:0;
+font-size:12px;
+}
+
+body{
+color:#505055;
+}
+
+a{
+color:#3b6783;
+outline:none;
+text-decoration:none;
+font-weight:bold;
+}
+
+a:hover{
+color:#5493ba;
+}
+
+p{
+line-height:1.2;
+}
+
+img{
+border:none;
+}
+
+#emphasis,
+#emphasis2{
+background:#f3f3f3;
+padding:15px 15px 0 15px;
+margin-bottom:10px;
+width:400px;
+}
+
+.sparebox{
+padding:15px !important;
+}
+
+.check-tpoint{
+color:#3b6783;
+background:#f3f3f3;
+font-size:10px;
+font-weight:bold;
+padding:5px 15px 8px 0;
+display:block;
+width:400px;
+}
+
+
+#emphasis table p
+#emphasis2 table p{
+margin-left:7px !important;
+}
+
+#emphasis2{
+padding:5px 15px;
+margin:15px 0 20px 0;
+}
+
+#emphasis2 table p{
+font-weight:bold;
+padding:2px 0 0 7px;
+}
+
+#emphasis2 table td{
+vertical-align:top !important;
+}
+
+#emphasis table{
+margin-top:15px;
+}
+
+#emphasis a,
+#emphasis2 a{
+text-decoration:underline;
+}
+
+#emphasis .emphasis-text2,
+#emphasis2 .emphasis-text2{
+font-size:14px;
+font-weight:bold;
+padding-bottom:3px;
+margin-left:7px;
+}
+
+#emphasis .emphasis-text2 span,
+#emphasis2 .emphasis-text2 span{
+font-size:12px;
+}
+
+.link01{
+font-size:11px;
+padding-bottom:30px;
+}
+
+.link01 a{
+background:url("../img/link_marker_s.gif") no-repeat 0 2px;
+padding-left:13px;
+}
+
+.link01 span{
+font-size:10px;
+}
+
+.link02{
+margin-bottom:20px;
+display:block;
+}
+
+.line02 img{
+margin:10px auto 0 auto;
+display:block;
+}
+
+#emphasis .link02 a,
+#emphasis2 .link02 a{
+display:block;
+width:70px;
+}
+
+#emphasis .link03,
+#emphasis2 .link03{
+padding-left:5px;
+}
+
+#emphasis .link03 a,
+#emphasis2 .link03 a{
+background:url("../img/link_marker_s.gif") no-repeat 0 2px;
+padding-left:13px;
+text-decoration:none !important;
+}
+
+#emphasis2 .notice4{
+color:#f00 !important;
+font-size:12px;
+}
+
+#emphasis .notice5,
+#emphasis2 .notice5{
+font-size:12px;
+}
+
+#emphasis .notice6,
+#emphasis2 .notice6{
+font-size:11px;
+font-weight:normal !important;
+}
+
+#emphasis .notice7,
+#emphasis .notice8,
+#emphasis .notice10,
+#emphasis2 .notice7,
+#emphasis2 .notice8,
+#emphasis2 .notice10{
+color:#3b6783 !important;
+}
+
+#emphasis .notice7{
+font-size:12px;
+}
+
+#emphasis .notice8,
+#emphasis2 .notice8{
+text-align:right;
+width:230px;
+}
+
+#emphasis .notice9,
+#emphasis2 .notice9{
+font-size:10px;
+padding-left:0 !important;
+font-weight:normal !important;
+}
+
+#emphasis .notice10,
+#emphasis2 .notice10{
+font-weight:normal !important;
+font-size:11px;
+}
+
+#emphasis .notice11,
+#emphasis2 .notice11{
+font-weight:bold !important;
+font-size:14px !important;
+color:#00b1ee !important;
+}
+
+#emphasis .coution{
+color:#F00;
+font-size:10px;
+font-weight:bold;
+}
+
+#emphasis .important{
+font-size:14px;
+font-weight:bold;
+}
+
+#emphasis .important span,
+#emphasis .coution span,
+#emphasis p span.exp{
+font-size:80%;
+}
+
+#emphasis p{
+font-size:11px;
+line-height:1.4;
+}
+
+#emphasis3{
+font-size:16px;
+width:430px;
+}
+
+#emphasis4{
+font-size:16px;
+margin-left:20px;
+padding:10px 0 0 0;
+width:430px;
+}
+
+#emphasis3 p,
+#emphasis4 p{
+font-size:12px;
+line-height:1.6;
+margin-top:10px;
+color:#505055;
+}
+
+#emphasis3 span,
+#emphasis3 table .exp3,
+#emphasis4 span,
+#emphasis4 table .exp3{
+font-weight:bold;
+}
+
+#emphasis3 p.usre-txt,
+#emphasis4 p.usre-txt{
+color:#3b6783;
+font-weight:bold;
+font-size:16px;
+}
+
+#emphasis3 table,
+#emphasis4 table{
+color:#3b6783;
+font-size:16px;
+line-height:1.6;
+}
+
+#emphasis3 table .gold,
+#emphasis3 table .pletinum,
+#emphasis3 table .premium,
+#emphasis4 table .gold,
+#emphasis4 table .pletinum,
+#emphasis4 table .premium{
+font-size:18px !important;
+}
+
+#emphasis3 table .gold2,
+#emphasis3 table .pletinum2,
+#emphasis3 table .premium2,
+#emphasis4 table .gold2,
+#emphasis4 table .pletinum2,
+#emphasis4 table .premium2{
+font-weight:bold;
+}
+
+#emphasis3 table .gold,
+#emphasis3 p .gold2,
+#emphasis4 table .gold,
+#emphasis4 p .gold2{
+color:#d98d40;
+}
+
+#emphasis3 table .pletinum,
+#emphasis3 p .pletinum2,
+#emphasis4 table .pletinum,
+#emphasis4 p .pletinum2{
+color:#87bbd0;
+}
+
+#emphasis3 table .premium,
+#emphasis3 p .premium2,
+#emphasis4 table .premium,
+#emphasis4 p .premium2{
+color:#cc0000;
+}
+
+#emphasis3 p .exp3,
+#emphasis4 p .exp3{
+color:#644b75 !important;
+}
+
+#login-wrapper:after,
+#login-contents:after{
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+content:".";
+}
+.clear{clear:both;}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtensionManifest Version="4.0" ExtensionBundleId="com.amanaimages.plugin" ExtensionBundleVersion="1.0.0"
+		ExtensionBundleName="AmanaImages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Contact mailto="n.d.thang1987@gmail.com"/>	<ExtensionList>
+		<Extension Id="com.amanaimages.plugin" Version="1.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="PHSP" Version="[14.0,18.9]" />
+			<Host Name="PHXS" Version="[14.0,18.9]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="6.0" />
+
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.amanaimages.plugin">
+			<DispatchInfo >
+				<Resources>
+				<MainPath>./index.html</MainPath>
+				<ScriptPath>./AmanaImages.jsx</ScriptPath>
+				<CEFCommandLine>
+					<Parameter>--enable-speech-input</Parameter>
+					<Parameter>--enable-media-stream</Parameter>
+					<Parameter>--enable-nodejs</Parameter>
+					<Parameter>--mixed-context</Parameter>
+				</CEFCommandLine>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>Amana Images</Menu>
+					<Geometry>
+						<Size>
+							<Height>620</Height>
+							<Width>720</Width>
+						</Size>
+					</Geometry>
+					<Icons>
+						<Icon Type="Normal">./img/favicons.png</Icon>
+					</Icons>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

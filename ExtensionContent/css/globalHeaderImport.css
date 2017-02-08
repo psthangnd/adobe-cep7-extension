@@ -1,0 +1,10 @@
+@charset "shift-jis";
+
+@import url("login.css");
+
+/* macIE5除外のため一重引用符 */
+@import url('globalHeader.css?20140401');
+
+/* macie5対応 \*//*/
+@import url("globalHeader_ie5.css");
+/* macie5対応 */

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<script language="javascript" src="js/ps_script.js"></script>
+<link href="css/ps_style.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="lib/CSInterface.js"></script>
+<script type="text/javascript" src="lib/convert-image-to-base64.js"></script>
+
+<script language=javascript>
+	function redirect(){
+		window.location = "Nodejs.html";
+		
+		//var http = require('http');
+		//var express = require('express');
+		//alert(express);
+		
+		
+		//saveImageToPC();
+		//saveImageToPS();
+	}
+	
+	function saveImageToPS(){
+		var csInterface = new CSInterface();
+		//var pathImage = csInterface.getSystemPath(SystemPath.EXTENSION) + "/img/favicons.png";
+		var pathImage = "C:/Chrysanthemum.jpg";
+		saveToPS(csInterface, pathImage);
+	}
+	
+	function saveImageToPC(){
+		saveToPC('C:/AdobeCC-Photoshop/data/', 'http://cdn.amanaimages.com/rf_thumb200/11017/11017018747.jpg');
+	}
+</script>
+
+<body onload="redirect()" />
+
+</HTML>
